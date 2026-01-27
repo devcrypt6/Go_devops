@@ -40,7 +40,7 @@ func main() {
 
 // Tools
 // Go lang
-//gopls - Language server
+// gopls - Language server
 // go-outline - Document symbols
 // dlv - Debugger
 // staticcheck - Linter
