@@ -1,0 +1,29 @@
+# Type(scope): subject
+#
+# Types: feat, fix, refactor, perf, docs, test, build, ci, chore, deps
+# Scope: folder or package (e.g. 1_hello_world, 2_packages, 3_variables, Challenge_1)
+# Subject: imperative mood, ~50 chars, no period
+#
+# Example subjects:
+# - feat(2_packages): add math utils for float ops
+# - fix(1_hello_world): handle empty args in greeting
+# - refactor(3_variables): simplify var declarations using short form
+# - perf(Challenge_3): reduce allocations in parser
+# - test(4_constants): add table-driven tests for constants
+#
+# Body — explain what changed and why:
+# Why: brief problem or motivation
+# Change: key code changes or modules affected
+# How: approach, notable decisions, trade-offs
+# Impact: user/API changes, risks, perf metrics
+#
+# Tips:
+# - Mention exported Go symbols when changing API (e.g., UserService, Parse())
+# - Note error handling improvements (wrapping %w, sentinel errors)
+# - Call out concurrency decisions (goroutines, context usage)
+#
+# Footer — optional metadata:
+# Refs #123
+# Fixes #123
+# BREAKING CHANGE: describe incompatible change and migration
+# Co-authored-by: Name <email>
