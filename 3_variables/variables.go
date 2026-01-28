@@ -91,6 +91,41 @@ func main() {
 	fmt.Println("String number:", strNum)
 	fmt.Sscanf(strNum, "%d", &intFromStr)
 
+
+	//numeric types
+	//call main2()
+	//how to call main2 function from another file in the same package
+	main2()
+
+	//floats and complex numbers
+	//call main3()
+	main3()
+
+	//arithmetic operations
+	//call main4()
+	main4()
+
+	//comparison operations
+	//call main5()
+	main5()
+
+	//bitwise operations
+	//call main6()
+	main6()
+
+
+	//operator precedence
+	//call main7()
+	main7()
+
+	//type conversions
+	//call main8()
+	main8()
+	
+	//formatting
+	//call main9()
+	main9()
+
 }
 
 
